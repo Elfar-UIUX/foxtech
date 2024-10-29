@@ -3,22 +3,29 @@
 
 
 h1{
-    font-size: 3.125vw;
+    font-size: 3.125vw; 
+    /* 60px */
 }
 h2{
     font-size: 1.822vw;
+    /* 35px */
 }
 h3{
     font-size: 1.562vw;
+    /* 30px */
 }
 h4{
     font-size: 1.25vw;
+    /* 24px */
 }
 h5{
     font-size: 1.146vw;
+    margin-bottom: 0;
+    /* 22px */
 }
 p{
     font-size: 1.042vw;
+    /* 20px */
 }
 
 .medium{

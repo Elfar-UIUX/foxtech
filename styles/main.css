@@ -1,0 +1,42 @@
+lottie-player{
+    width: 100%;
+    opacity: 0.9;
+}
+
+#hero{
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.hero-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wave-bg{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+}
+
+#about lottie-player{
+   width: 10rem;
+   height: 10rem;
+}
+
+#about .service-short {
+    border-left: .1rem solid var(--main-gray);
+    padding-left: 3rem;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+#about .logos{
+    display: flex;
+    gap: 4rem;
+}

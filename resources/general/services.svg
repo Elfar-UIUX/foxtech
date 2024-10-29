@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="services" transform="translate(-617 57)">
+    <g id="Group_8" data-name="Group 8" transform="translate(617 -57)">
+      <path id="Rectangle_6" data-name="Rectangle 6" d="M2,1.5a.5.5,0,0,0-.5.5V6a.5.5,0,0,0,.5.5H6A.5.5,0,0,0,6.5,6V2A.5.5,0,0,0,6,1.5H2M2,0H6A2,2,0,0,1,8,2V6A2,2,0,0,1,6,8H2A2,2,0,0,1,0,6V2A2,2,0,0,1,2,0Z" transform="translate(12)" fill="#d3d3d3"/>
+      <path id="Rectangle_8" data-name="Rectangle 8" d="M2,1.667a.531.531,0,0,0-.5.556V17.778a.531.531,0,0,0,.5.556H6a.531.531,0,0,0,.5-.556V2.222A.531.531,0,0,0,6,1.667H2M2,0H6A2.12,2.12,0,0,1,8,2.222V17.778A2.12,2.12,0,0,1,6,20H2a2.12,2.12,0,0,1-2-2.222V2.222A2.12,2.12,0,0,1,2,0Z" fill="#d3d3d3"/>
+      <path id="Rectangle_7" data-name="Rectangle 7" d="M2,1.5a.5.5,0,0,0-.5.5V6a.5.5,0,0,0,.5.5H6A.5.5,0,0,0,6.5,6V2A.5.5,0,0,0,6,1.5H2M2,0H6A2,2,0,0,1,8,2V6A2,2,0,0,1,6,8H2A2,2,0,0,1,0,6V2A2,2,0,0,1,2,0Z" transform="translate(12 12)" fill="#d3d3d3"/>
+    </g>
+  </g>
+</svg>

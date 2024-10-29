@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="20" height="20" transform="translate(634 44)" fill="#d3d3d3"/>
+    </clipPath>
+  </defs>
+  <g id="about" transform="translate(-634 -44)" clip-path="url(#clip-path)">
+    <g id="SVGRepo_iconCarrier" transform="translate(634 44)">
+      <g id="Page-1" transform="translate(0 0)">
+        <g id="about-white">
+          <path id="Shape" d="M10,0A10,10,0,1,0,20,10,10,10,0,0,0,10,0Zm0,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18ZM11.252,6a1.25,1.25,0,1,1-2.5-.014,1.25,1.25,0,0,1,2.5.014ZM9,9h2v6H9Z" transform="translate(0 0)" fill="#d3d3d3" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

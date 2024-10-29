@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="20" height="20" transform="translate(481 44)" fill="#f1f1f1"/>
+    </clipPath>
+  </defs>
+  <g id="home" transform="translate(-481 -44)" clip-path="url(#clip-path)">
+    <g id="SVGRepo_iconCarrier" transform="translate(481 44)">
+      <path id="Path_1" data-name="Path 1" d="M12.907,21.047H9.186c-3.7,0-5.558,0-6.854-1.34s-1.286-3.243-1.286-7.055V11.236c0-2.245,0-3.372.569-4.41S3.123,5.2,4.989,4.043L6.85,2.888c1.976-1.226,2.967-1.842,4.2-1.842s2.221.615,4.2,1.842L17.1,4.043c1.866,1.158,2.8,1.74,3.374,2.783a.7.7,0,0,1-1.224.67c-.395-.721-1.227-1.238-2.886-2.267l-1.86-1.155c-1.751-1.086-2.629-1.632-3.461-1.632s-1.71.545-3.461,1.632L5.725,5.228C4.067,6.258,3.234,6.774,2.839,7.5s-.4,1.733-.4,3.741v1.415c0,3.436,0,5.161.894,6.085s2.544.915,5.85.915h3.721c3.307,0,4.966,0,5.85-.915s.894-2.649.894-6.085V11.236a.7.7,0,1,1,1.4,0v1.415c0,3.812,0,5.725-1.286,7.055S16.608,21.047,12.907,21.047Z" transform="translate(-1.047 -1.047)" fill="#f1f1f1"/>
+      <path id="Path_2" data-name="Path 2" d="M13.186,15.837H7.6a.7.7,0,0,1,0-1.4h5.581a.7.7,0,1,1,0,1.4Z" transform="translate(-0.395 0.442)" fill="#f1f1f1"/>
+    </g>
+  </g>
+</svg>

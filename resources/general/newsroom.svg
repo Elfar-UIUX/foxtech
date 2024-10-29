@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="20" height="20" transform="translate(913 44)" fill="#dd480a"/>
+    </clipPath>
+  </defs>
+  <g id="newsroom" transform="translate(-913 -44)" clip-path="url(#clip-path)">
+    <g id="SVGRepo_iconCarrier" transform="translate(913.865 45.024)">
+      <g id="ic-contact-edit" transform="translate(0)">
+        <path id="Path_3" data-name="Path 3" d="M17.535,3.489h0a2.648,2.648,0,0,1,1.808.71l.021.02,3.088,3.088.02.021a2.666,2.666,0,0,1-.107,3.725L10.847,22.57a.778.778,0,0,1-.5.226l-5.6.357-.073,0a1.158,1.158,0,0,1-1.156-1.231l.357-5.6a.778.778,0,0,1,.226-.5L15.618,4.306A2.668,2.668,0,0,1,17.535,3.489Zm.74,1.842a1.1,1.1,0,0,0-.74-.286h0a1.091,1.091,0,0,0-.8.342l-.013.014L5.409,16.716,5.1,21.572l4.856-.31L21.271,9.946l.014-.013A1.1,1.1,0,0,0,21.34,8.4Z" transform="translate(-4.293 -4.267)" fill="#d3d3d3"/>
+      </g>
+    </g>
+  </g>
+</svg>

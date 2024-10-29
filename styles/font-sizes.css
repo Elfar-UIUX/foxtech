@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1{
+    font-size: 3.125vw;
+}
+h2{
+    font-size: 1.822vw;
+}
+h3{
+    font-size: 1.562vw;
+}
+h4{
+    font-size: 1.25vw;
+}
+h5{
+    font-size: 1.146vw;
+}
+p{
+    font-size: 1.042vw;
+}
+
+.medium{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    h1{
+        font-size: 6rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    h4{
+        font-size: 2.4rem;
+    }
+    h5{
+        font-size: 2.2rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    h1{
+        font-size: 4.2rem;
+    }
+}

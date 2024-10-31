@@ -1,0 +1,17 @@
+.about-hero{
+    background-image: url(/resources/about/hero-bg.png);
+    background-color: var(--main-gray-dark);
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-content{
+    display: grid;
+    grid-template-areas:
+        'one two'
+        'three four'
+        'five six';
+    align-items: center;
+    row-gap: 5rem;
+    column-gap: 10rem;
+}

@@ -40,3 +40,18 @@ lottie-player{
     display: flex;
     gap: 4rem;
 }
+
+.ecommerce-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 0!important;
+}
+
+.images{
+    width: 100%;
+    
+}

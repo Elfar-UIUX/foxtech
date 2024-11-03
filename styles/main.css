@@ -55,3 +55,58 @@ lottie-player{
     width: 100%;
     
 }
+
+.why-choose-us-grid{
+    display: grid;
+    grid-template-areas:
+      "expertise desk_image desk_image why why"
+      "tailored desk_image desk_image innovation committed";
+  
+  }
+  .expertise {
+    grid-area: expertise;
+  }
+
+  .tailored {
+    grid-area: tailored;
+  }
+
+  .why {
+    grid-area: why;
+  }
+
+  .innovation {
+    grid-area: innovation;
+  }
+
+  .committed {
+    grid-area: committed;
+  }
+
+  .desk_image {
+    grid-area: desk_image;
+  }
+
+
+
+  .why-card img{
+    margin-bottom: 20px;
+    
+  }
+
+
+  @media (max-width:1100px){
+    .why-choose-us-grid{
+        display: grid;
+        grid-template-areas:
+         'why why'
+          'desk_image desk_image'
+           "expertise tailored"
+          "innovation committed";
+      
+      }
+
+      body > section:nth-child(4) > div > div.desk_image > img{
+        width: 100%;
+      }
+  }

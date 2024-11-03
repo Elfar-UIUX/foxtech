@@ -15,3 +15,22 @@
     row-gap: 5rem;
     column-gap: 10rem;
 }
+
+
+@media (max-width:1100px){
+
+    .grid-content{
+        display: grid;
+        grid-template-areas:
+            'one'
+            'two'
+            'four'
+            'three'
+            'five'
+            'six';
+        /* align-items: center;
+        row-gap: 5rem;
+        column-gap: 10rem; */
+    }
+
+}

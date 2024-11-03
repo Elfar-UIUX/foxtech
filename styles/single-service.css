@@ -1,0 +1,90 @@
+
+.key-features{
+    display: grid;
+    grid-template-areas: 
+    'feature-1 feature-2 feature-3 feature-4'
+    ;
+    gap: 2.5rem;
+}
+
+.key-feature{
+    background-color: var(--main-gray-dark);
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+.key-feature h3{
+   margin-top: 1rem;
+}
+
+
+.feature-1 {
+    grid-area: feature-1;
+  }
+.feature-2 {
+    grid-area: feature-2;
+  }
+.feature-3 {
+    grid-area: feature-3;
+  }
+.feature-4 {
+    grid-area: feature-4;
+  }
+
+
+  .methodologies{
+    display: grid;
+    grid-template-areas: 
+        'methodology-1 methodology-2'
+        'methodology-3 methodology-4'
+        ;
+        gap: 3rem;
+        width: 85%;
+  }
+
+  .numbers{
+    color: var(--main-orange);
+    opacity: 0.5;
+    font-weight: 700;
+  }
+
+  @media (max-width:1200px){
+    .key-features{
+        display: grid;
+        grid-template-areas: 
+        'feature-1 feature-2'
+        'feature-3 feature-4'
+        ;
+        gap: 2.5rem;
+    }
+
+    .methodologies{
+        width: 100%;
+    }
+    
+  }
+
+
+  @media (max-width:600px){
+    .key-features{
+        display: grid;
+        grid-template-areas: 
+        'feature-1'
+        'feature-2'
+        'feature-3'
+        'feature-4'
+        ;
+        gap: 2.5rem;
+    }
+
+
+    .methodologies{
+        grid-template-areas: 
+        'methodology-1'
+        'methodology-2'
+        'methodology-3'
+        'methodology-4'
+        ;
+    }
+    
+  }

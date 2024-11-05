@@ -36,8 +36,11 @@ body {
 }
 
 
-.nav-link.active{
+.nav-item.active .nav-link{
     color: var(--main-orange)!important;
+}
+.nav-item.active svg path{
+    fill: var(--main-orange)!important;
 }
 
 .primary-button{
@@ -436,6 +439,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    :root{
+        font-size: 55%;
+
+    }
     .container {
         max-width: 95%;
         margin: auto;

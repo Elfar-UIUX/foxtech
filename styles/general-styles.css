@@ -48,7 +48,7 @@ body {
     border: 0.1rem solid white;
     color: white;
     border-radius: 10rem;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
     box-shadow:none ;
 }
 
@@ -440,8 +440,7 @@ body {
 
 @media (max-width: 768px) {
     :root{
-        font-size: 55%;
-
+        font-size: 50%;
     }
     .container {
         max-width: 95%;

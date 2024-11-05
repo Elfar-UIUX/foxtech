@@ -56,13 +56,22 @@ lottie-player{
     
 }
 
-.why-choose-us-grid{
+/* .why-choose-us-grid{
     display: grid;
     grid-template-areas:
       "expertise desk_image desk_image why why"
       "tailored desk_image desk_image innovation committed";
-  
-  }
+  } */
+
+  .why-choose-us-grid {
+    display: grid;
+    grid-template-areas:
+        "expertise desk_image desk_image why why"
+        "tailored desk_image desk_image innovation committed";
+    grid-template-columns: repeat(5, 1fr); /* Ensures equal column widths */
+}
+
+
   .expertise {
     grid-area: expertise;
   }
@@ -113,7 +122,7 @@ lottie-player{
   }
 
   @media (max-width:1100px){
-    .why-choose-us-grid{
+    /* .why-choose-us-grid{
         display: grid;
         grid-template-areas:
          'why why'
@@ -121,20 +130,62 @@ lottie-player{
            "expertise tailored"
           "innovation committed";
           gap: 1rem;
-      }
+      } */
+
+      .why-choose-us-grid {
+        grid-template-areas:
+        "why why"
+            "expertise desk_image"
+            "tailored desk_image"
+            "innovation committed";
+            gap: 0;
+            grid-template-columns: repeat(2, 1fr); /* Ensures equal column widths */    }
+
+    .why, .desk_image, .expertise, .tailored, .innovation, .committed {
+      width: 100%; /* Full width for each item */
+  }
 
       body > section:nth-child(4) > div > div.desk_image > img{
         width: 100%;
       }
+
+      .nav-cutom-height{
+        height: 100%;
+      }
+  
+      .nav-border-left{
+        border: none;
+      }
   }
 
 
-  @media (max-width:1100px){
-    .nav-cutom-height{
-      height: 100%;
-    }
+  @media (max-width:600px){
+    .why-choose-us-grid{
+        display: grid;
+        grid-template-areas:
+         'why why'
+          'desk_image desk_image'
+           "expertise tailored"
+          "committed innovation";
+    
+      }
 
-    .nav-border-left{
-      border: none;
-    }
   }
+
+
+
+
+
+
+  /* Assign grid-area to each item */
+.expertise { grid-area: expertise; }
+.tailored { grid-area: tailored; }
+.why { grid-area: why; }
+.innovation { grid-area: innovation; }
+.committed { grid-area: committed; }
+.desk_image {
+    grid-area: desk_image;
+    grid-column: span 2; /* Ensure it spans across two columns */
+    width: 100%; /* Ensure it fills the designated area */
+    height: auto; /* Maintain aspect ratio */
+}

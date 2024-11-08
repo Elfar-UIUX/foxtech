@@ -29,6 +29,11 @@
             'five'
             'six';
     }
+
+
+    .why-card img{
+        width: 20%;
+    }
 }
 
 

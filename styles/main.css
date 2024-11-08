@@ -99,6 +99,12 @@ lottie-player{
   }
 
 
+  .ecom-images{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
 
   .why-card img{
     margin-bottom: 20px;
@@ -156,6 +162,11 @@ lottie-player{
       .nav-border-left{
         border: none;
       }
+
+      .ecom-images{
+        width: 60%;
+      }
+    
   }
 
 
@@ -169,6 +180,8 @@ lottie-player{
           "committed innovation";
     
       }
+
+ 
 
   }
 

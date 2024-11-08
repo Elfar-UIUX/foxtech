@@ -440,7 +440,7 @@ body {
 
 @media (max-width: 768px) {
     :root{
-        font-size: 50%;
+        font-size: 40%;
     }
     .container {
         max-width: 95%;

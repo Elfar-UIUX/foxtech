@@ -4,7 +4,7 @@
     --main-gray: #F1F1F1;
     --main-gray-dark:#2D2D2D;
     --main-gray-light:#464646;
-    --light-text:#d3d3d38c;
+    --light-text:#d3d3d3;
     font-size: 62.5%;
 }
 
@@ -48,9 +48,16 @@ body {
     border: 0.1rem solid white;
     color: white;
     border-radius: 10rem;
-    padding: 1rem 3rem;
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
     box-shadow:none ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
 }
+.primary-button img{
+    width: 4.2rem;
+  }
 
 .secondary-button{
     background-color: transparent;
@@ -66,6 +73,12 @@ body {
 
 .navbar-nav{
     gap:1rem;
+}
+
+.buttons-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
 }
 
 
@@ -259,10 +272,16 @@ body {
 
 /* Media Queries */
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    br{
+        display: none;
+    }
+}
 
 @media (max-width: 992px) {
-
+    br{
+        display: none;
+    }
     .container {
         max-width: 92%;
         margin: auto;
@@ -283,6 +302,10 @@ body {
         padding-top: 1.5rem !important;
     }
 
+    .p-4{
+        padding:2rem !important;
+    }
+    
     .pt-4,
     .py-4 {
         padding-top: 2rem !important;
@@ -317,7 +340,9 @@ body {
     .py-2 {
         padding-bottom: 1rem !important;
     }
-
+    .p-3{
+        padding: 1.5rem !important ;
+    }
     .pb-3,
     .py-3 {
         padding-bottom: 1.5rem !important;
@@ -327,7 +352,10 @@ body {
     .py-4 {
         padding-bottom: 2rem !important;
     }
+    .p-5{
+        padding: 2.5rem !important;
 
+    }
     .pb-5,
     .py-5 {
         padding-bottom: 2.5rem !important;
@@ -427,23 +455,24 @@ body {
     .my-15 {
         margin-bottom: 7.5rem !important;
     }
+    .br-1 {
+        border-radius: 0.5rem !important;
+    }
+    
+    .br-3 {
+        border-radius: 1.5rem !important;
+    }
+    
+    .br-6 {
+        border-radius: 3rem !important;
+    }
 }
 
-.br-1 {
-    border-radius: 1rem !important;
-}
 
-.br-3 {
-    border-radius: 3rem !important;
-}
-
-.br-6 {
-    border-radius: 6rem !important;
-}
 
 @media (max-width: 768px) {
     :root{
-        font-size: 55%;
+        font-size: 50%;
     }
     .container {
         max-width: 95%;

@@ -8,6 +8,7 @@ h1{
 }
 h2{
     font-size: 1.822vw;
+    line-height: 1.5;
     /* 35px */
 }
 h3{
@@ -26,6 +27,10 @@ h5{
 p{
     font-size: 1.042vw;
     /* 20px */
+}
+
+.regular{
+    font-weight: 400;
 }
 
 .medium{
